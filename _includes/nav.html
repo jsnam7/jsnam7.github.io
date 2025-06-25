@@ -12,20 +12,26 @@
 
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
-   {% for title, link in site.navbar-links %}
-      {% if link contains 'http' or link contains '/' %}
-        <li class="nav-item"><a class="nav-link" href="{{ link }}">{{ title }}</a></li>
-      {% else %}
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ title }}</a>
-          <ul class="dropdown-menu">
-            {% for subtitle, sublink in link %}
-              <li><a class="dropdown-item" href="{{ sublink }}">{{ subtitle }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-      {% endif %}
-    {% endfor %}
+   {% for item in site.navbar-links %}
+  {% assign title = item[0] %}
+  {% assign link = item[1] %}
+
+  {% if link contains 'http' or link contains '/' %}
+    <li class="nav-item"><a class="nav-link" href="{{ link }}">{{ title }}</a></li>
+  {% else %}
+    <li class="nav-item dropdown">
+      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ title }}</a>
+      <ul class="dropdown-menu">
+        {% for subitem in link %}
+          {% assign subtitle = subitem[0] %}
+          {% assign sublink = subitem[1] %}
+          <li><a class="dropdown-item" href="{{ sublink }}">{{ subtitle }}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endif %}
+{% endfor %}
+
     </ul>
   </div>
 
