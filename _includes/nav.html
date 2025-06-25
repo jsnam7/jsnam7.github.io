@@ -13,13 +13,13 @@
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
    <ul class="navbar-nav ml-auto">
-  {% for item in site.navbar-links %}
+   {% for item in site.navbar-links %}
     {% assign title = item[0] %}
     {% assign link = item[1] %}
 
-    {% if title == "Research" and link != nil and link != link | string %}
+    {% if title == "Project" %}
       <li class="nav-item dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ title }}</a>
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ title }}</a>
         <ul class="dropdown-menu">
           {% for subitem in link %}
             {% assign subtitle = subitem[0] %}
