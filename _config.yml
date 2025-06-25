@@ -24,8 +24,10 @@ navbar-links:
       url: "Research Experiences"
     - title: "Research Interests"
       url: "Research Interests"    
-  Project: "project"
-  Google Scholar: "https://scholar.google.com/citations?user=seokhoson"
+  - title: "Project"
+    url: "project"
+  - title: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=seokhoson"
 
 
 # [수정필요] 아바타 로고 사용 시에는 이미지 파일을 지정 (이미지 파일 업로드 후, 위치 지정)
