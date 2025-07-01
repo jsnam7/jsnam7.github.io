@@ -16,8 +16,8 @@ navbar-links:
   Publication: "publication"
   Project: "project"
   Research:
-   Research Experiences: "Research Experiences"
-   Research Interests: "Research Interests"
+   Research Experiences: "/Research Experiences"
+   Research Interests: "/Research Interests"
   Google Scholar: "https://scholar.google.com/citations?user=seokhoson"
 
 
