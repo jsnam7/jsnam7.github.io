@@ -1,7 +1,7 @@
 # --- Basic options --- #
 
 # [수정필요] 웹페이지 이름
-title: Junseo Nam
+title: glycobiology researcher
 
 # [수정필요] 간단한 사이트 설명
 description: Personal Website of Junseo Nam
@@ -22,7 +22,7 @@ navbar-links:
 
 
 # [수정필요] 아바타 로고 사용 시에는 이미지 파일을 지정 (이미지 파일 업로드 후, 위치 지정)
-avatar: "/assets/img/seokho-square-2.jpg"
+avatar: "/assets/img/Junseo.jpg"
 # 원형 아바타 이미지 여부 `true` 또는 `false`
 round-avatar: true
 
@@ -37,7 +37,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "shsonkorea@etri.re.kr"
+  email: "jsnam7@gmail.com"
   facebook: seokho.son.korea
   github: seokho-son
   linkedin: seokho-son

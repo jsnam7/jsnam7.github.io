@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Cloud Researcher
-subtitle: Artificial Intelligence Research Laboratory, ETRI
-cover-img: /assets/img/itu-seokho-m4.jpg
+title: Junseo Nam
+subtitle: Lab. Glyco-Life ScienceDepartment of Applied Biosciences <br/>
+ Graduate School of Bioagricultural Sciences<br/>
+ Nagoya University
+cover-img: /assets/img/nagoya university.jpg
 ---
 
 <br/>
